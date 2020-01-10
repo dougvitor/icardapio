@@ -4,7 +4,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-	<meta charset="utf-8">
 	<title>${restaurant.name} - ${restaurant.slogan}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="${restaurant.name} - ${restaurant.slogan}">
@@ -101,7 +100,7 @@
 						
 						<c:if test="${empty category.products}">
 							<div class="alert">
-								<strong>Atenção:</strong> Nenhuma produto nessa categoria.
+								<strong>Atenção:</strong> Nenhum produto nessa categoria.
 							</div>
 						</c:if>
 					</div>
@@ -110,7 +109,7 @@
 		</c:if>
 		<c:if test="${empty categories}">
 			<div class="alert">
-				<strong>Atenção:</strong> Nenhuma categoria de produtos cadastada.
+				<strong>Atenção:</strong> Nenhuma categoria de produtos cadastrada.
 			</div>
 		</c:if>
 	</div>
